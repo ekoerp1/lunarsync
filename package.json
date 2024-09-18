@@ -4,10 +4,11 @@
   "description": "The ultimate place for 200+ unblocked games at school",
   "engines": {
     "npm": ">=9.0.0",
-    "node": ">=18.0.0"
+    "node": "18.x"
   },
   "scripts": {
     "start": "node src/index.js"
+    "build": "npm install"
   },
   "dependencies": {
     "@titaniumnetwork-dev/ultraviolet": "^2.0.0",
